@@ -11,11 +11,7 @@ export class WelcomePage {
 
   constructor(public navCtrl: NavController) { }
 
-  login() {
-    this.navCtrl.push('LoginPage');
-  }
-
-  signup() {
-    this.navCtrl.push('SignupPage');
+  enter() {
+    this.navCtrl.push('TabsPage');
   }
 }
